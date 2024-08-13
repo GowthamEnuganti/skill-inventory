@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Layout</title>
+    <style>
+        /* Container for the entire form */
+        .form-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+            gap: 20px; /* Space between columns */
+            max-width: 1200px; /* Adjust as needed */
+            margin: 0 auto; /* Center the form on the page */
+        }
+
+        /* Container for each label-input pair */
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px; /* Space between rows */
+        }
+
+        /* Labels styling */
+        label {
+            width: 120px; /* Fixed width for consistent alignment */
+            margin-right: 10px; /* Space between label and input */
+            text-align: right; /* Right-align label text */
+            font-weight: bold;
+        }
+
+        /* Input fields styling */
+        input[type="text"] {
+            padding: 8px;
+            font-size: 14px;
+            width: 200px; /* Consistent width for input fields */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <div class="form-group">
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone :</label>
+            <input type="text" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+            <label for="business-unit">Business unit :</label>
+            <input type="text" id="business-unit" name="business-unit">
+        </div>
+        <div class="form-group">
+            <label for="location">Location :</label>
+            <input type="text" id="location" name="location">
+        </div>
+        <div class="form-group">
+            <label for="job-title">Job Title :</label>
+            <input type="text" id="job-title" name="job-title">
+        </div>
+        <div class="form-group">
+            <label for="emp-no">Emp No :</label>
+            <input type="text" id="emp-no" name="emp-no">
+        </div>
+        <div class="form-group">
+            <label for

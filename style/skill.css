@@ -1,0 +1,133 @@
+.header{
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  
+  position: fixed;
+}
+.sagar{
+  margin-left: 20px;
+}
+.bell{
+  width: 30px;
+  margin-left: 1670px;
+}
+.person{
+  width: 35px;
+  margin-left: 10px;
+}
+.skill{
+  display: block;
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: Arial;
+
+}
+.secondbox{
+  display: flex;
+  align-items: center;
+  
+}
+.profilee{
+  display: inline-block;
+}
+.profile{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 60px;
+  margin-left: 100px ;
+}
+.Name{
+  display: inline-block;
+  margin-left: 120px;
+}
+.inline{
+  display: flex;
+  align-items: center; 
+   
+}
+.bold1{
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
+   
+  
+}
+.box{
+  padding: 5px;
+  font-size: 14px; 
+  width: 224px;
+  flex: 2; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+.Name2{
+  display: inline-block;
+  margin-left: 200px;
+}
+.Name3{
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.header3{
+  display: flex;
+  align-items: center;
+}
+.head3{
+  margin-top: 30px;
+}
+.skills{
+  margin-left: 100px;
+  margin-right: 400px;
+}
+
+
+
+.search{
+  border-radius: 10px;
+  width: 200px;
+  height: 25px;
+  border-width: 1px;
+  padding-left: 15px;
+  margin-left: 600px;
+}
+.new{
+  background-color: rgb(75, 191, 236);
+  padding: 7px 8px;
+  border-width: 1px;
+  margin-left: 20px;
+}
+.new:hover{
+  background-color: rgb(145, 224, 26);
+  cursor: pointer;
+}
+table,td, th{
+  /*border: 1px solid black;
+  border-collapse: collapse;*/
+  width: 1000px;
+  height: 60px; 
+  margin: 10px;
+}
+.line{
+  width: 1700px;
+  height: 500px;
+  border: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-left: 100px;
+  padding-right: 20px;
+}
+.heading{
+  text-align: center;
+  font-size: 20px;
+}
+.sometext{
+  text-align: center;
+}
